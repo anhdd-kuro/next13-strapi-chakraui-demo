@@ -1,0 +1,1 @@
+# next13-strapi-chakraui-demo
