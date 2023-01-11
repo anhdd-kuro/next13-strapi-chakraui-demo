@@ -1,17 +1,17 @@
 export * from "./post";
 
-export interface Pagination {
+export type Pagination = {
   page: number;
   pageSize: number;
   pageCount: number;
   total: number;
-}
+};
 
-export interface Meta {
+export type Meta = {
   pagination: Pagination;
-}
+};
 
-export interface StrapiResponse<T> {
+export type StrapiResponse<T> = {
   data: T;
   meta: Meta;
-}
+};

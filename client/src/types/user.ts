@@ -1,4 +1,4 @@
-export interface User {
+export type User = {
   id: number;
   username: string;
   email: string;
@@ -7,4 +7,4 @@ export interface User {
   blocked: boolean;
   createdAt: string;
   updatedAt: string;
-}
+};
